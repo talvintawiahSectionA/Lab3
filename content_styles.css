@@ -28,3 +28,21 @@ td {
     text-align: left;
     
 }
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.prev{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.prev:hover{
+    background-color: lightseagreen;
+}

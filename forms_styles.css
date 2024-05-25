@@ -7,6 +7,10 @@ body{
 font-family: monospace;
 }
 
+h1{
+    padding-top: 5%;
+}
+
 .input-text{
 
     display: block;
@@ -29,4 +33,17 @@ font-family: monospace;
 .click{
     background-color: blue;
     color: aqua;
+}
+
+.prev{
+    margin: 10;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.prev:hover{
+    background-color: lightseagreen;
 }
