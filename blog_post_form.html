@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <link rel="stylesheet" href="forms_styles.css">   
+    </head>
+    <body>
+        <header>
+            <h1>Create a new Blog Entry</h1>
+        </header>
+        <form>
+<input type="text" name="Blog Post Title" placeholder="Blog Post Title" class="input-text">
+<input type="text" name="Blog Post Author" placeholder="Blog Post Author" class="input-text">
+<textarea name="Content" rows="4" cols="60" placeholder="Type the content of the post here..." class="content"></textarea>
+<select name="Category" id="Category-Select" required>
+    <option>---Select a category---</option>
+    <option value="Tech">Tech</option>
+    <option value="Sports">Sports</option>
+    <option value="Fashion">Fashion</option>
+    <option value="Travel">Travel</option>
+</select>
+<input type="submit" class="submit">
+<button type="button" onclick="alert('Form Submitted!')" class="click">Click Me </button>
+</form>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+*{
+    margin: 5px;
+}
+
+body{
+
+font-family: monospace;
+}
+
+.input-text{
+
+    display: block;
+    padding: 5px;
+    border-radius: 1%;
+    background-color: bisque;
+}
+
+.content{
+    border-radius: 1%;
+    background-color: bisque;
+}
+
+
+
+#Category-Select{
+    display: block;
+}
+
+.click{
+    background-color: blue;
+    color: aqua;
+}
