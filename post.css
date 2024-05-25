@@ -1,0 +1,42 @@
+*{
+    font-family: monospace;
+    
+}
+
+h1{
+    margin: 10px;
+    text-align: center;
+    color: blue;
+    padding: 5%;
+}
+h3{
+    font-style: italic;
+    color: brown;
+}
+h4{
+    color: lightblue;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.top{
+    background-color: gray ;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.prev, .next{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.prev:hover,.next:hover{
+    background-color: lightseagreen;
+}
