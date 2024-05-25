@@ -1,9 +1,18 @@
+
+*{
+    font-family: monospacex;
+}
 table{
     border-spacing: 0;
     border-collapse: collapse;
     width: 100%;
     border-radius: 20%;
 
+}
+
+caption{
+    font-size: large;
+    
 }
 thead{
     border: 1px solid black;
@@ -17,4 +26,5 @@ td {
     padding: 2%;
     border : 1px solid black;
     text-align: left;
+    
 }
